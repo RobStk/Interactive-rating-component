@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="main.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
+  <script src="app.js" type="module"></script>
+  <title>Frontend Mentor | Interactive rating component</title>
+</head>
+
+<body>
+
+
+  <div class="wrapper">
+
+    <form id="ratingForm" class="rating-component">
+      <div class="upperSection round"><img src="images/icon-star.svg" alt="star icon"></div>
+      <div class="text-content-section">
+        <h1>How did we do?</h1>
+        <p>
+          Please let us know how we did with your support request. All feedback is appreciated to help us improve
+          our
+          offering!
+        </p>
+      </div>
+
+      <div class="rates-section">
+        <div class="round rate">1</div>
+        <div class="round rate">2</div>
+        <div class="round rate">3</div>
+        <div class="round rate">4</div>
+        <div class="round rate">5</div>
+      </div>
+
+      <input class="tube" type="submit" value="submit">
+    </form>
+
+    <template id="thanksComponent">
+      <div class="rating-component thanks">
+        <img src="images/illustration-thank-you.svg" alt="thank you illustration">
+        <div class="selectedInfo tube"></div>
+        <div class="text-content-section">
+          <h1>Thank you!</h1>
+          <p>We appreciate you taking the time to give a rating. If you ever need more support,
+            don’t hesitate to get in touch!</p>
+        </div>
+      </div>
+    </template>
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/RobStk">robster</a>.
+    </div>
+
+  </div>
+</body>
+
+</html>
