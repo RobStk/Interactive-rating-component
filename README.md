@@ -34,7 +34,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/RobStk/interactive-rating-component
-- Live Site URL: incoming...
+- Live Site URL: https://robstk.github.io/interactive-rating-component/
 
 ## Author
 
